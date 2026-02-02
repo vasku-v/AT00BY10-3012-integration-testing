@@ -1,0 +1,27 @@
+{
+  "name": "integration_testing",
+  "version": "1.0.0",
+  "description": "Integration test for REST API",
+  "main": "src/hex2rgb.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasku-v/AT00BY10-3012-integration-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vasku-v/AT00BY10-3012-integration-testing/issues"
+  },
+  "homepage": "https://github.com/vasku-v/AT00BY10-3012-integration-testing#readme",
+  "devDependencies": {
+    "chai": "^6.2.2",
+    "mocha": "^11.7.5"
+  }
+}
