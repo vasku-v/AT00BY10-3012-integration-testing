@@ -79,8 +79,8 @@ AT00BY10-3012-integration-testing/
 
 ## Unit Tests
 
-Located in:
--- test/
+Located in:  
+-- test/  
 ---- hex2rgb.test.js
 
 The unit tests are implemented using Mocha together with Chai's Expect style. All tests are placed in one test suite.
