@@ -43,15 +43,15 @@ http://localhost:3000
 
 GET http://localhost:3000/hexToRgb?hex=ff00aa
 
-#### Successfull response
+### Successfull response
 
 {
   "r": 255,
   "g": 0,
   "b": 170
 }
----
-#### Error: invalid hex format
+
+### Error: invalid hex format
 
 {
   "error": "invalid hex format"
