@@ -35,11 +35,9 @@ http://localhost:3000
 
 ---
 
-## API Endpoint
+# API Endpoint
 
-### Convert hex to RGB
-
-### Example
+### Example Usage
 
 GET http://localhost:3000/hexToRgb?hex=ff00aa
 
@@ -62,6 +60,8 @@ GET http://localhost:3000/hexToRgb?hex=ff00aa
 {
   "error": "hex parameter missing"
 }
+
+---
 
 # Project Directory Structure
 

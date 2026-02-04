@@ -1,8 +1,6 @@
-// hex2rgb.js
-
-/**
- * Converts a hexadecimal color string to an RGB object.
- * 
+/** 
+ * @file hex2rgb.js 
+ * @description Converts a hexadecimal color string to an RGB object.
  * Accepts both 3-character and 6-character hex formats, with or without
  * a leading "#" symbol.
  * 

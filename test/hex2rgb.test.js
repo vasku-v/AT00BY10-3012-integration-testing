@@ -1,17 +1,15 @@
-// hex2rgb.test.js
-
-const { expect } = require("chai");
-const { hexToRgb } = require("../src/hex2rgb");
-
 /**
- * Unit tests for the hex2rgb function.
- * 
+ * @file hex2rgb.test.js
+ * @description Unit tests for the hex2rgb function.
  * This test suite verifies correct hexadecimal-to-RGB conversion
  * (both 3- and 6-digit formats, with or without a leading '#') and ensures
  * that invalid inputs throw the appropriate errors.
  * 
  * @module test/hex2rgb
  */
+
+const { expect } = require("chai");
+const { hexToRgb } = require("../src/hex2rgb");
 
 describe("hex2rgb.js", () => {
     /**
